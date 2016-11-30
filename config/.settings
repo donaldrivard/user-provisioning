@@ -1,0 +1,17 @@
+{
+    "projectName": "user-provisioning",
+    "username": "drivard@demandware.com.up",
+    "id": "f1669360-b64c-11e6-921a-75fac53d8e8b",
+    "namespace": "ccloud",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://ccuserprovisioning-dev-ed.my.salesforce.com",
+    "workspace": "/Users/drivard/MavensMate/Projects",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}

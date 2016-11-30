@@ -1,0 +1,1 @@
+<aura:application implements="force:appHostable" extends="force:slds" ></aura:application>

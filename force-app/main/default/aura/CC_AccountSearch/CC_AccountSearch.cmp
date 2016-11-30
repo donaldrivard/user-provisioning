@@ -1,0 +1,87 @@
+<aura:component >
+	<!-- #Data -->
+  <!-- Customer -->
+  <aura:attribute name="selectedAccountId" type="String"/>
+  <aura:attribute name="selectedAccount" type="Object"/>
+
+  <!-- Delayed Search -->
+  <aura:attribute name="searchString" type="String" default="asdf"/>
+  <aura:attribute name="searchDelay" type="Integer" default="1000"/>
+  <aura:attribute name="timer" type="Object"/>
+
+  <!-- Results -->
+  <aura:attribute name="resultSize" type="Integer" default="0"/>
+  <aura:attribute name="accounts" type="Object[]"/>
+
+  <!-- Pagination -->
+  <aura:attribute name="pageNumber" type="Integer" default="1"/>
+  <aura:attribute name="pageSize" type="Integer" default="10"/>
+  <aura:attribute name="pageCount" type="Integer" default="1"/>
+
+  <!-- #Events -->
+  <aura:registerEvent name="accountSelected" type="CC_AccountSelectedEvent"/>
+
+  <!-- #Handlers -->
+  <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+	
+  <!-- Body -->
+  <c:DL_Spinner aura:id="spinner">
+
+    <div class="slds-grid slds-wrap">
+
+      <div class="slds-size--1-of-1 slds-m-bottom--large">
+        <ui:inputText aura:id="searchBox" class="slds-input" placeholder="Search Customers" keyup="{!c.delayedSearch}" updateOn="keyup"/>
+      </div>
+
+      <div class="slds-size--1-of-1">
+        <table class="slds-table slds-table--bordered slds-table--cell-buffer slds-no-row-hover">
+          <thead>
+            <tr>
+              <th colspan="4">
+                <div class="slds-grid slds-grid--pull-padded">
+                  <div class="slds-col--padded align-left">
+                    {!v.resultSize} Results
+                  </div>
+                  <div class="slds-col--padded align-center">
+                    Page {!v.pageNumber} of {!v.pageCount}
+                  </div>
+                  <div class="slds-col--padded align-right">
+                    <ui:button press="{!c.previousBtnPress}" label="Previous"/>
+                    <ui:button press="{!c.nextBtnPress}" label="Next"/>
+                  </div>
+                </div>
+              </th>
+            </tr>
+            <tr class="slds-text-heading--label">
+              <th scope="col"></th>
+              <th scope="col" title="Account Name">
+                <div class="slds-truncate">Account Name</div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <aura:iteration items="{!v.accounts}" var="result">
+              <tr>
+                <td>
+                  <!-- NOTE: This button replicates behavior of the ui:button, see the component detail for more information -->
+                  <c:DL_DataButton label="Select" data="{!result}" press="{!c.customerSelectPress}"/>
+                </td>
+                <td data-label="Name">
+                  {!result.Name}
+                </td>
+              </tr>
+            </aura:iteration>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </c:DL_Spinner>
+
+
+
+
+
+
+
+</aura:component>
