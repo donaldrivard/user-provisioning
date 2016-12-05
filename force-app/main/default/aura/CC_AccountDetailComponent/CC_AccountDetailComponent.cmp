@@ -1,0 +1,29 @@
+<aura:component >
+    <aura:attribute name="accountId" type="String"/>
+  <aura:attribute name="account" type="Object"/>
+
+  <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+  <aura:handler name="change" value="{!v.customerId}" action="{!c.updateCustomerId}"/>
+
+  <table class="slds-table slds-table--bordered slds-table--cell-buffer">
+    <thead>
+      <tr class="slds-text-heading--label">
+        <th scope="col" title="Id">
+          <div class="slds-truncate">Id</div>
+        </th>
+        <th scope="col" title="First Name">
+          <div class="slds-truncate">Name</div>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <aura:iteration items="{!v.account}" var="account">
+        <tr>
+          <td data-label="Id">{!account.id}</td>
+          <td data-label="Name">{!account.name}</td>
+        </tr>
+      </aura:iteration>
+    </tbody>
+  </table>
+    
+</aura:component>	

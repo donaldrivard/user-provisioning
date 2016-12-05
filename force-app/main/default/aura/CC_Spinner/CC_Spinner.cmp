@@ -1,0 +1,33 @@
+<aura:component>
+<aura:attribute name="isVisible" type="Boolean" default="false"/>
+  <aura:attribute name="minHeight" type="Integer" default="80"/>
+  <aura:attribute name="fixed" type="Boolean" default="false"/>
+
+  <!-- How does using methods compare with just using an event? -->
+  <aura:method name="toggle" action="{!c.toggle}" description="Toggles the spinner based on isVisible."/>
+  <aura:method name="show" action="{!c.show}" description="Shows the spinner."/>
+  <aura:method name="hide" action="{!c.hide}" description="Hides the spinner."/>
+
+  <aura:if isTrue="{!v.fixed}">
+
+    <div aura:id="spinner" class="slds-spinner_container slds-hide" style="position: fixed;">
+      <div class="slds-spinner--brand slds-spinner slds-spinner--large" aria-hidden="{!!isVisible}" role="alert">
+        <div class="slds-spinner__dot-a"></div>
+        <div class="slds-spinner__dot-b"></div>
+      </div>
+    </div>
+
+    <aura:set attribute="else">
+      <div class="spinner-frame" style="{!'min-height: ' + v.minHeight + 'px;'}">
+        <div aura:id="spinner" class="slds-spinner_container slds-hide">
+          <div class="slds-spinner--brand slds-spinner slds-spinner--large" aria-hidden="{!!isVisible}" role="alert">
+            <div class="slds-spinner__dot-a"></div>
+            <div class="slds-spinner__dot-b"></div>
+          </div>
+        </div>
+        {!v.body}
+      </div>
+    </aura:set>
+
+  </aura:if>    
+</aura:component>	

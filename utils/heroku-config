@@ -1,0 +1,3 @@
+stagingName=user-provisioning-staging
+prodName=user-provisioning-prod
+pipelineName=user-provisioning-pipelines
