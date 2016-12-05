@@ -1,2 +1,11 @@
-.THIS {
+.THIS .align-left {
+    text-align: left;
+}
+
+.THIS .align-center {
+    text-align: center;
+}
+
+.THIS .align-right {
+    text-align: right;
 }

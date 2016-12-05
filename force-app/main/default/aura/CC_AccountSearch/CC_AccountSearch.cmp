@@ -1,4 +1,4 @@
-<aura:component >
+<aura:component controller="AccountLookupController" >
 	<!-- #Data -->
   <!-- Customer -->
   <aura:attribute name="selectedAccountId" type="String"/>
@@ -19,18 +19,18 @@
   <aura:attribute name="pageCount" type="Integer" default="1"/>
 
   <!-- #Events -->
-  <aura:registerEvent name="accountSelected" type="CC_AccountSelectedEvent"/>
+  <aura:registerEvent name="accountSelected" type="c:CC_AccountSelectedEvent"/>
 
   <!-- #Handlers -->
   <aura:handler name="init" value="{!this}" action="{!c.init}"/>
 	
   <!-- Body -->
-  <c:DL_Spinner aura:id="spinner">
+  <c:CC_Spinner aura:id="spinner"> 
 
     <div class="slds-grid slds-wrap">
 
       <div class="slds-size--1-of-1 slds-m-bottom--large">
-        <ui:inputText aura:id="searchBox" class="slds-input" placeholder="Search Customers" keyup="{!c.delayedSearch}" updateOn="keyup"/>
+        <ui:inputText aura:id="searchBox" class="slds-input" placeholder="Search Accounts" keyup="{!c.delayedSearch}" updateOn="keyup"/>
       </div>
 
       <div class="slds-size--1-of-1">
@@ -48,13 +48,14 @@
                   <div class="slds-col--padded align-right">
                     <ui:button press="{!c.previousBtnPress}" label="Previous"/>
                     <ui:button press="{!c.nextBtnPress}" label="Next"/>
+                  
                   </div>
                 </div>
               </th>
             </tr>
             <tr class="slds-text-heading--label">
-              <th scope="col"></th>
-              <th scope="col" title="Account Name">
+           
+              <th scope="col" title="Name">
                 <div class="slds-truncate">Account Name</div>
               </th>
             </tr>
@@ -64,7 +65,7 @@
               <tr>
                 <td>
                   <!-- NOTE: This button replicates behavior of the ui:button, see the component detail for more information -->
-                  <c:DL_DataButton label="Select" data="{!result}" press="{!c.customerSelectPress}"/>
+                   <c:CC_DataButtonComponent label="Select" data="{!result}" press="{!c.accountSelectPress}"/> 
                 </td>
                 <td data-label="Name">
                   {!result.Name}
@@ -76,7 +77,7 @@
       </div>
     </div>
 
-  </c:DL_Spinner>
+</c:CC_Spinner>
 
 
 
