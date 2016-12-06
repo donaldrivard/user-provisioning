@@ -45,7 +45,11 @@
 
         // Fire notification
         var e = component.getEvent('accountSelected');
+        console.log('E = ' + e);
+        
         e.setParams({ account: account });
+        
         e.fire();
+        console.log('Event fired ' + account);
     }
 })

@@ -1,29 +1,45 @@
 <aura:component >
-    <aura:attribute name="accountId" type="String"/>
+   <aura:attribute name="accountId" type="String"/>
   <aura:attribute name="account" type="Object"/>
 
-  <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
-  <aura:handler name="change" value="{!v.customerId}" action="{!c.updateCustomerId}"/>
+ 
+  <!-- #Handlers -->
+  <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+  <aura:handler name="change" value="{!v.accountId}" action="{!c.updateAccountId}"/>
 
-  <table class="slds-table slds-table--bordered slds-table--cell-buffer">
-    <thead>
-      <tr class="slds-text-heading--label">
-        <th scope="col" title="Id">
-          <div class="slds-truncate">Id</div>
-        </th>
-        <th scope="col" title="First Name">
-          <div class="slds-truncate">Name</div>
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <aura:iteration items="{!v.account}" var="account">
-        <tr>
-          <td data-label="Id">{!account.id}</td>
-          <td data-label="Name">{!account.name}</td>
-        </tr>
-      </aura:iteration>
-    </tbody>
-  </table>
+  <c:CC_Spinner aura:id="spinner">
+    <aura:if isTrue="{!v.accountId.length > 0}">
+      <div class="slds-page-header" role="banner">
+        <div class="slds-grid">
+          <div class="slds-col slds-has-flexi-truncate">
+            <div class="slds-media slds-media--center slds-no-space slds-grow">
+              <div class="slds-media__body">
+                <p class="slds-text-heading--label">Account</p>
+                <h1 class="slds-page-header__title slds-m-right--small slds-truncate slds-align-middle" title="Record Title">{!v.account.Name}</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="slds-grid slds-page-header__detail-row">
+          <li class="slds-page-header__detail-block">
+            <p class="slds-text-heading--label-normal slds-truncate slds-m-bottom--xx-small" title="Field 1">Account Id</p>
+            <p class="slds-text-body--regular" title="{!v.customer.customer_no}">{!v.accountId}</p>
+          </li>
+          <li class="slds-page-header__detail-block">
+            <p class="slds-text-heading--label-normal slds-truncate slds-m-bottom--xx-small" title="Field 1">Account Name</p>
+            <p class="slds-text-body--regular" title="{!v.customer.customer_no}">{!v.account.Name}</p>
+          </li>
+        </ul>
+      </div>
+
+      <aura:set attribute="else">
+        <div style="min-height: 200px">
+          <div class="slds-align--absolute-center">No Account Selected</div>
+        </div>
+      </aura:set>
+
+    </aura:if>
+
+  </c:CC_Spinner>
     
 </aura:component>	

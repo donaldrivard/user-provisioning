@@ -1,17 +1,24 @@
 ({
     init : function(component, event, helper) {
-        var customerId = component.get('v.accountId');
-
-        if (customerId && customerId != '') {
-            helper.getCustomerData(component);
+        var accountId = component.get('v.accountId');
+        var account = component.get('v.account');
+        
+        console.log('Account data ' + account + ' ' + accountId);
+        
+        if (accountId && accountId != '') {
+            //helper.getCustomerData(component);
         }
     },
 
-    updateCustomerId : function(component, event, helper) {
-        var customerId = component.get('v.accountId');
+    updateAccountId : function(component, event, helper) {
+        var accountId = component.get('v.accountId');
 
-        if (customerId && customerId != '') {
-            helper.getCustomerData(component);
+        if (accountId && accountId != '') {
+            //helper.getCustomerData(component);
         }
     }
+    
+      
+    
+    
 })
