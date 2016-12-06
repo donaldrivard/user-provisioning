@@ -3,13 +3,22 @@
     <!-- #Data -->
   	<!-- NOTE: I am using a two-way binding for customer data between the browser, search, and detail components.
        When the search component selects a customer it is synchronized between the browser and and therefore the detail. -->
-  	<aura:attribute name="selectedAccountId" type="String"/>
-  	<aura:attribute name="selectedAccount" type="Object"/>
+  	<aura:attribute name="accountId" type="String"/>
+  	<aura:attribute name="account" type="Object"/>
+  	<aura:handler name="accountSelected" event="c:CC_AccountSelectedEvent" action="{!c.handleAccount}"/>
 
   <div class="slds-grid slds-wrap slds-grid--pull-padded">
 
     <div class="slds-col--padded-large slds-size--4-of-6">
       <c:CC_AccountSearch selectedAccountId="{!v.selectedAccountId}"/>
+    </div>
+    
+    
+    <div class="slds-col--padded-large slds-size--2-of-6 vertical-bar-left" >
+      <c.CC_AccountDetailComponent 
+      	account="{!v.account}" 
+      	accountId="{!v.accountId}" 
+      />
     </div>
     
   </div>

@@ -1,7 +1,7 @@
 <aura:component implements="flexipage:availableForAllPageTypes,force:appHostable" >
 	
 
-			<aura:attribute name="user" type="User"/>
+<aura:attribute name="user" type="User"/>
 
 
  
@@ -21,16 +21,15 @@
 </div>
 </div>
     
-<div class="slds-col slds-col--padded slds-p-top--large" align="center">
+<div class="slds-col slds-col--padded slds-p-top--large" align="left">
 
 	<fieldset class="slds-box slds-theme--default slds-container--small">
 
     <legend id="newexpenseform" class="slds-text-heading--small 
-      slds-p-vertical--medium">
+      slds-p-vertical--large">
      New User Provisioning
     </legend>
 
-    <!-- CREATE NEW EXPENSE FORM -->
     <form class="slds-form--stacked">
 
       <div class="slds-form-element slds-is-required">
@@ -54,7 +53,7 @@
           </div>
       </div>
 
-      <div class="slds-form-element slds-lookup" data-select="single">
+  <div class="slds-form-element slds-lookup" data-select="single">
   <label class="slds-form-element__label" for="lookup-330">Account Name</label>
   <div class="slds-form-element__control">
     <div class="slds-input-has-icon slds-input-has-icon--right">
