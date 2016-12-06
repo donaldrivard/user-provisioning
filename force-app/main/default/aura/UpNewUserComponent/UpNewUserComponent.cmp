@@ -58,7 +58,8 @@
   <label class="slds-form-element__label" for="lookup-330">Account Name</label>
   <div class="slds-form-element__control">
     <div class="slds-input-has-icon slds-input-has-icon--right">
-      <input id="lookup-330" class="slds-lookup__search-input slds-input" type="search" placeholder="Search Accounts" aria-owns="lookup-330" role="combobox" aria-activedescendent="" aria-expanded="false" aria-autocomplete="list" />
+      <c:CC_AccountBrowser />
+      
     </div>
   </div>
 </div>

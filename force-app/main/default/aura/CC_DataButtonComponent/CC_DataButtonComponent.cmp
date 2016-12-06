@@ -1,0 +1,12 @@
+<aura:component>
+    <aura:attribute name="label" type="String"/>
+    <aura:attribute name="data" type="Object"/>
+
+    <!-- NOTE: This component replicates the assignment of a callback method from the parent, see ui components
+         related to ui:button at https://github.com/forcedotcom/aura/tree/master/aura-components/src/main/components/ui -->
+    <aura:registerEvent name="press" type="c.CC_DataButtonPressEvent"/>
+
+    <!-- Use a standard ui button for styling -->
+    <ui:button label="{!v.label}" press="{!c.btnPress}"/>
+    
+</aura:component>	

@@ -1,8 +1,8 @@
 {
-  "Company": "Red Dead Company",
+  "Company": "Commerce Cloud",
   "Country": "US",
-  "LastName": "Carroll",
-  "Email": "dcarroll@salesforce.com",
+  "LastName": "Rivard",
+  "Email": "drivard@salesforce.com",
   "Edition": "Developer",
   "OrgPreferences" : {
     "S1DesktopEnabled" : true,
