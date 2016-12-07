@@ -1,6 +1,7 @@
 public class AccountLookUpController {
  
 //This is just a comment to test review Apps
+//This is the best way to develop
  @AuraEnabled
     public static List<Account> lookupAccounts(String searchTerms) {
     	System.debug('DON  searchString ' + searchTerms);
