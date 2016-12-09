@@ -16,6 +16,13 @@
             "url": "https://github.com/heroku/salesforce-buildpack"
         }
     ],
+    
+    "scripts": {
+        "test": "test/test.sh"
+    },
     "env": {
+        "SALESFORCE_URL": "false",
+        "WEBKIT_MODE": "PHANTOM"
     }
-}
+    
+   }

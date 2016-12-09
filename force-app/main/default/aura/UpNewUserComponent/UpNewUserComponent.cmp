@@ -3,6 +3,11 @@
 
 <aura:attribute name="user" type="User"/>
 
+	<aura:attribute name="accountId" type="String"/>
+  	<aura:attribute name="account" type="Object"/>
+  	<aura:handler name="accountSelected" event="c:CC_AccountSelectedEvent" action="{!c.handleAccount}"/>
+
+
 
  
 <div class= "slds">
@@ -21,7 +26,7 @@
 </div>
 </div>
     
-<div class="slds-col slds-col--padded slds-p-top--large" align="left">
+<div class="slds-grid slds-wrap slds-grid--pull-padded">
 
 	<fieldset class="slds-box slds-theme--default slds-container--small">
 
@@ -52,22 +57,28 @@
 
           </div>
       </div>
-
+ <div class="slds-col--padded-large slds-size--4-of-6">
   <div class="slds-form-element slds-lookup" data-select="single">
-  <label class="slds-form-element__label" for="lookup-330">Account Name</label>
+  
   <div class="slds-form-element__control">
     <div class="slds-input-has-icon slds-input-has-icon--right">
       <c:CC_AccountBrowser />
-      
     </div>
   </div>
 </div>
-      
+ </div>
+   <div class="slds-col--padded-large slds-size--2-of-6 vertical-bar-left" >
+      <c.CC_AccountDetailComponent 
+      	account="{!v.account}" 
+      	accountId="{!v.accountId}" 
+      />
+    </div>
+ 
     </form>
     
   </fieldset>
 
 </div>
-
+  
 
 </aura:component>
