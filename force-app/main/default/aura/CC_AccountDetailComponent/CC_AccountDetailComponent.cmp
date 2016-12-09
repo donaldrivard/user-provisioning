@@ -23,12 +23,9 @@
         <ul class="slds-grid slds-page-header__detail-row">
           <li class="slds-page-header__detail-block">
             <p class="slds-text-heading--label-normal slds-truncate slds-m-bottom--xx-small" title="Field 1">Account Id</p>
-            <p class="slds-text-body--regular" title="{!v.customer.customer_no}">{!v.accountId}</p>
+            <p class="slds-text-body--regular" title="{!v.accountId}">{!v.accountId}</p>
           </li>
-          <li class="slds-page-header__detail-block">
-            <p class="slds-text-heading--label-normal slds-truncate slds-m-bottom--xx-small" title="Field 1">Account Name</p>
-            <p class="slds-text-body--regular" title="{!v.customer.customer_no}">{!v.account.Name}</p>
-          </li>
+          
         </ul>
       </div>
 
