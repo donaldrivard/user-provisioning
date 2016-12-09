@@ -14,12 +14,6 @@
     </div>
     
     
-    <div class="slds-col--padded-large slds-size--2-of-6 vertical-bar-left" >
-      <c.CC_AccountDetailComponent 
-      	account="{!v.account}" 
-      	accountId="{!v.accountId}" 
-      />
-    </div>
     
   </div>
     
