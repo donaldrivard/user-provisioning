@@ -5,6 +5,7 @@ public with sharing class LookupSObjectController
 {
 /**
 * Aura enabled method to search a specified SObject for a specific string
+* This is a generic object search
 */
 @AuraEnabled
 public static SearchResult[] lookup(String searchString, String sObjectAPIName)
