@@ -2,7 +2,7 @@
     
     <!-- #Data -->
   	<!-- NOTE: I am using a two-way binding for customer data between the browser, search, and detail components.
-       When the search component selects a customer it is synchronized between the browser and and therefore the detail. -->
+       When the search component selects a customer it This is a fucking JOKE AGAIN is synchronized between the browser and and therefore the detail. -->
   	<aura:attribute name="accountId" type="String"/>
   	<aura:attribute name="account" type="Object"/>
   	<aura:handler name="accountSelected" event="c:CC_AccountSelectedEvent" action="{!c.handleAccount}"/>

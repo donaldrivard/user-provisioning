@@ -35,46 +35,11 @@
       </div>
 
       <div class="slds-size--1-of-1">
-        <table class="slds-table slds-table--bordered slds-table--cell-buffer slds-no-row-hover">
-          <thead>
-            <tr>
-              <th colspan="4">
-                <div class="slds-grid slds-grid--pull-padded">
-                  <div class="slds-col--padded align-left">
-                    {!v.resultSize} Results
-                  </div>
-                  <div class="slds-col--padded align-center">
-                    Page {!v.pageNumber} of {!v.pageCount}
-                  </div>
-                  <div class="slds-col--padded align-right">
-                    <ui:button press="{!c.previousBtnPress}" label="Previous"/>
-                    <ui:button press="{!c.nextBtnPress}" label="Next"/>
-                  
-                  </div>
-                </div>
-              </th>
-            </tr>
-            <tr class="slds-text-heading--label">
-           
-              <th scope="col" title="Name">
-                <div class="slds-truncate">Account Name</div>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <aura:iteration items="{!v.accounts}" var="result">
-              <tr>
-                <td>
-                  <!-- NOTE: This button replicates behavior of the ui:button, see the component detail for more information -->
-                   <c:CC_DataButtonComponent label="Select" data="{!result}" press="{!c.accountSelectPress}"/> 
-                </td>
-                <td data-label="Name">
-                  {!result.Name}
-                </td>
-              </tr>
-            </aura:iteration>
-          </tbody>
-        </table>
+          	<ui:inputSelect aura:id="selectAccount" label="Accounts" change="{!c.onSelectChange}">
+            	<aura:iteration items="{!v.accounts}" var="result">
+           			<ui:inputSelectOption label="{!result.Name}" text="{!result}"/>	  
+            	</aura:iteration>
+            </ui:inputSelect>
       </div>
     </div>
 

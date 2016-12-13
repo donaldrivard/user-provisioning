@@ -1,13 +1,13 @@
 <aura:component implements="flexipage:availableForAllPageTypes,force:appHostable" >
 	
 
-<aura:attribute name="user" type="User"/>
+	<aura:attribute name="user" type="User" default="{'sobjectType':'User', 'Name':'','Email':''}"/>
 
 	<aura:attribute name="accountId" type="String"/>
   	<aura:attribute name="account" type="Object"/>
   	<aura:handler name="accountSelected" event="c:CC_AccountSelectedEvent" action="{!c.handleAccount}"/>
 
-
+	<aura:handler name="init" value="{!this}" action="{!c.init}"/>
 
  
 <div class= "slds">
@@ -34,22 +34,23 @@
       slds-p-vertical--large">
      New User Provisioning
     </legend>
-
     <form class="slds-form--stacked">
 
       <div class="slds-form-element slds-is-required">
           <div class="slds-form-element__control">
-              <ui:inputText aura:id="expname" label="User Email"
+              <ui:inputText aura:id="useremail" label="User Email"
                   class="slds-input"
                   labelClass="slds-form-element__label"
                   value="{!v.user.Email}"
-                  required="true"/>
+                  required="true"
+                  blur="{!c.handleBlur}"
+                  />
           </div>
      </div>
 
      <div class="slds-form-element slds-is-required">
           <div class="slds-form-element__control">
-              <ui:inputNumber aura:id="amount" label="User Name"
+              <ui:inputText aura:id="username" label="User Name"
                   class="slds-input"
                   labelClass="slds-form-element__label"
                   value="{!v.user.Name}"
@@ -57,7 +58,7 @@
 
           </div>
       </div>
- 
+ <div class="slds-col--padded slds-hide" aura:id="accounts">
   <div class="slds-form-element slds-lookup" data-select="single">
   <div class="slds-form-element__control">
     <div class="slds-input-has-icon slds-input-has-icon--right">
@@ -65,16 +66,18 @@
     </div>
   </div>
 </div>
-  
+  </div>
     </form>
     
   </fieldset>
+  <div class="slds-col--padded slds-hide" aura:id="accountdetail">
  <div class="slds-col--padded-large slds-size--2-of-6 vertical-bar-left" >
       <c.CC_AccountDetailComponent 
       	account="{!v.account}" 
       	accountId="{!v.accountId}" 
       />
     </div>
+   </div> 
  
 </div>
   
