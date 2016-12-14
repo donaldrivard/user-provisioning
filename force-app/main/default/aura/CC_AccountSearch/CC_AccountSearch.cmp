@@ -34,10 +34,11 @@
         <ui:inputText aura:id="searchBox" class="slds-input" placeholder="Search Accounts" keyup="{!c.delayedSearch}" updateOn="keyup"/>
       </div>
 
-      <div class="slds-size--1-of-1">
-          	<ui:inputSelect aura:id="selectAccount" label="Accounts" change="{!c.onSelectChange}">
+      <div class="slds-size--1-of-1 slds-is-required">
+          	<ui:inputSelect aura:id="selectAccount" label="Accounts" change="{!c.onSelectChange}" required="true">
+            	<ui:inputSelectOption label="-------------- Select Account --------------" text="0"/>
             	<aura:iteration items="{!v.accounts}" var="result">
-           			<ui:inputSelectOption label="{!result.Name}" text="{!result}"/>	  
+           			<ui:inputSelectOption label="{!result.Name}" text="{!result.Id}"/>	  
             	</aura:iteration>
             </ui:inputSelect>
       </div>
