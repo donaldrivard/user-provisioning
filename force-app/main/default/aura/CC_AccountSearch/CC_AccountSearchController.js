@@ -5,14 +5,14 @@
     
     onSelectChange : function(component, event, helper) {
     	var selected = component.find("selectAccount").get("v.value");
-    	
+    	console.log('------------------------- ' + selected.Name);
     	component.set('v.selectedAccount', selected);
     	component.set('v.selectedAccountId', selected.Id);
     	//do something else
     	var e = component.getEvent('accountSelected');
         e.setParams({ account: selected });
         e.fire();
-        console.log('Event fired ' + selected);
+        console.log('Event fired ' + selected.Name);
     	
     
     

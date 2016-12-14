@@ -5,30 +5,44 @@
 	  
 	  },
 	  
+	  handleClick : function(cmp, event, helper){
+	  
+	  },
+	  
+	  onMessageClick : function(cmp,event,helper){
+		  helper.hideEmailToast(cmp);
+	  },
+	  
 	  handleBlur : function(cmp, event, helper){
 		  var email = cmp.find("useremail").get("v.value");
+		  var eComponent = cmp.find("useremail");
+		  var validate = helper.validateEmail(email);
 		  var name = cmp.find("username");
-		  name.set('v.value',email);
-		  
-		  if (email.endsWith('@salesforce.com') || email.endsWith('@demandware.com')){
-			  helper.hideAccountBrowser(cmp);
+		 if(validate === true){
+			 if (email.endsWith('@salesforce.com') || email.endsWith('@demandware.com')){
+				 name.set('v.value',email);
+				 helper.hideAccountBrowser(cmp);
+			 }else{
+				 name.set('v.value','');
+				 helper.showAccountBrowser(cmp);
+			 }
+			 	helper.showButtons(cmp);
 		  }else{
-			  helper.showAccountBrowser(cmp);
+			  	eComponent.set('v.value','' );
+			  	helper.showEmailToast(cmp);
+			  	
 		  }
-		 
-		  
-		  
 	  },
 	 
 	 
 	 handleAccount : function(component, event, helper) {
-        console.log('UpNewUserComponent:handleAccountSelected:');
         var account = event.getParam('account');
-        console.log('UpNewUserComponent account: ', account);
-        console.log('UpNewUserComponent account ID : ', account.Id);
-
         component.set('v.account', account);
         component.set('v.accountId', account.Id);
-    }
+    },
+    
+    onEmailClick : function(cmp, event, helper) {
+    		helper.hideEmailToast(cmp)
+    	}
 
 })
