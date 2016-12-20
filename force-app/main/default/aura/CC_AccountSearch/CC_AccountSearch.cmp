@@ -1,7 +1,15 @@
 <aura:component controller="AccountLookupController" >
 	<!-- #Data -->
-  <!-- Customer -->
+  <!-- User -->
+  <aura:attribute name="email" type="String"/>
+  <aura:attribute name="firstName" type="String"/>
+  <aura:attribute name="lastName" type="String"/>
+  
+  <aura:attribute name="accountMap" type="Map"/>
+	
+  <!-- Account -->
   <aura:attribute name="selectedAccountId" type="String"/>
+  <aura:attribute name="accountType" type="String"/>
   <aura:attribute name="selectedAccount" type="Object"/>
 
   <!-- Delayed Search -->
@@ -10,46 +18,46 @@
   <aura:attribute name="timer" type="Object"/>
 
   <!-- Results -->
-  <aura:attribute name="resultSize" type="Integer" default="0"/>
   <aura:attribute name="accounts" type="Object[]"/>
-
-  <!-- Pagination -->
-  <aura:attribute name="pageNumber" type="Integer" default="1"/>
-  <aura:attribute name="pageSize" type="Integer" default="10"/>
-  <aura:attribute name="pageCount" type="Integer" default="1"/>
-
+  
+ 
   <!-- #Events -->
   <aura:registerEvent name="accountSelected" type="c:CC_AccountSelectedEvent"/>
-
+  
+  
+  
   <!-- #Handlers -->
   <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+  <aura:handler name="change" value="{!v.email}" action="{!c.handleEmailChange}"/>
+  <aura:handler event="c:CC_UserInfoEvent" action="{!c.handleSearchUserInfo}"/>
+  
 	
   <!-- Body -->
   <c:CC_Spinner aura:id="spinner"> 
 
-    <div class="slds-grid slds-wrap">
-
+	    <div class="slds-grid slds-wrap slds-show" align="center" aura:id="internal">
+				Salesforce and Commerce Cloud users does not have an Account.
+		</div>
+    <br> </br>
+    <div class="slds-grid slds-wrap slds-hide" aura:id="external">
+    <br> </br>
       <div class="slds-size--1-of-1 slds-m-bottom--large">
-      <label class="slds-form-element__label" for="lookup-330">Account Name</label>	
         <ui:inputText aura:id="searchBox" class="slds-input" placeholder="Search Accounts" keyup="{!c.delayedSearch}" updateOn="keyup"/>
       </div>
 
-      <div class="slds-size--1-of-1 slds-is-required">
+      <div class="slds-size--1-of-1 slds-is-required" align="left">
           	<ui:inputSelect aura:id="selectAccount" label="Accounts" change="{!c.onSelectChange}" required="true">
             	<ui:inputSelectOption label="-------------- Select Account --------------" text="0"/>
-            	<aura:iteration items="{!v.accounts}" var="result">
-           			<ui:inputSelectOption label="{!result.Name}" text="{!result.Id}"/>	  
-            	</aura:iteration>
+            	
+            	<aura:iteration items="{!v.accounts}" var="result" indexVar="index">
+           			<ui:inputSelectOption label="{!result.Name}" text="{!result.Id}"/>	
+           		</aura:iteration>
+           
             </ui:inputSelect>
       </div>
+    
     </div>
-
+<br> </br>
 </c:CC_Spinner>
-
-
-
-
-
-
 
 </aura:component>

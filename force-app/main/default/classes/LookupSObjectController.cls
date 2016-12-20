@@ -34,10 +34,22 @@ public static List<Account> lookupAccounts(String searchString)
 {
   String escapedSearchString = String.escapeSingleQuotes(searchString);
   System.debug('DON  escapedSearchString ' + escapedSearchString);
-  String query = 'SELECT Id,Name from Account where Name LIKE ' + '\'%' + escapedSearchString + '%\'' + ' Limit 50';
+  String query = 'SELECT Id,Name,RecordTypeId,RecordType.Name from Account where Name LIKE ' + '\'%' + escapedSearchString + '%\'' + ' Limit 50';
   System.debug('DON  query ' + query);
   List<Account> accounts = DataBase.query(query);
+  
   return accounts;
+ 
+ 
+}
+
+@AuraEnabled
+public static Account lookupAccount(String Id)
+{
+  String query = 'SELECT Name,Id,Type from Account where Id = \'' +Id + '\' ';
+  System.debug('DON  query ' + query);
+  Account account = DataBase.query(query);
+  return account;
  
  
 }

@@ -1,0 +1,66 @@
+<aura:component>
+
+<aura:attribute name="user" type="User" default="{'sobjectType':'User', 'Name':'','Email':''}"/>
+
+<aura:registerEvent name="userinfo" type="c:CC_UserInfoEvent" />
+
+
+
+	<div class="slds-notify_container" aura:id="emailalert">
+  <div class="slds-notify slds-notify--toast slds-theme--error" role="alert">
+    <span class="slds-assistive-text">Error</span>
+    <button class="slds-button slds-notify__close slds-button--icon-inverse" title="Close">
+   	  <span class="slds-assistive-text">Close</span>
+    </button>
+    <div class="slds-notify__content slds-grid">
+      <div class="slds-col slds-align-middle">
+        <h2 class="slds-text-heading--small">Email address you entered is invalid.</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+     <div class="slds-form-element slds-is-required" align="left">
+          <div class="slds-form-element__control">
+              <ui:inputText aura:id="firstName" label="First Name"
+                  class="slds-input"
+                  labelClass="slds-form-element__label"
+                  value="{!v.user.FirstName}"
+                  required="true"
+                  />
+          </div>
+     </div>
+
+	<div class="slds-form-element slds-is-required" align="left">
+          <div class="slds-form-element__control">
+              <ui:inputText aura:id="lastName" label="Last Name"
+                  class="slds-input"
+                  labelClass="slds-form-element__label"
+                  value="{!v.user.LastName}"
+                  required="true"
+                  />
+          </div>
+     </div>
+
+  
+       <div class="slds-form-element slds-is-required" align="left">
+          <div class="slds-form-element__control">
+              <ui:inputText aura:id="useremail" label="User Email"
+                  class="slds-input"
+                  labelClass="slds-form-element__label"
+                  value="{!v.user.Email}"
+                  required="true"
+                  blur="{!c.handleBlur}"
+                  click="{!c.onEmailClick}"
+                  />
+          </div>
+     </div>
+     
+         <div>
+     <br></br>
+     </div>
+    
+</aura:component>	
