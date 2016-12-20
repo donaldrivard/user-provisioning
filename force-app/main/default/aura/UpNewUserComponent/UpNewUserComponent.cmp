@@ -1,110 +1,58 @@
-<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable" >
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable"  controller="AccountLookupController" >
 	
-
-	<aura:attribute name="user" type="User" default="{'sobjectType':'User', 'Name':'','Email':''}"/>
-
-	<aura:attribute name="accountId" type="String"/>
-  	<aura:attribute name="account" type="Object"/>
-  	<aura:handler name="accountSelected" event="c:CC_AccountSelectedEvent" action="{!c.handleAccount}"/>
-
 	<aura:handler name="init" value="{!this}" action="{!c.init}"/>
-
- 
-<div class= "slds" align="center">
-<div class= "slds-page-header">
-<div class= "slds-grid">
-<div class="slds-col slds-has-flexi-truncate">
-<p class= "slds-text-heading--label">User Provisioning Application</p>
-<div class= "slds-grid" align="center">
-<div class= "slds-grid slds-type-focus slds-no-space">
-<h1 class= "slds-text-heading--medium slds-truncate"
-	title= "Create New User " align="center" >Create New User </h1>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class = "slds" align="center">
- 
-	<fieldset class="slds-box slds-theme--default slds-container--medium" align="center">
-	<div class="slds-hide" aura:id="invalidEmailToast">
-		<ui:message title="Error!" severity="error" closable="false" click="{!c.onMessageClick}">
-   			Invalid Email Address...								         	
- 		</ui:message>
-	</div>
 	
-	<div class="slds-notify_container" aura:id="emailalert">
-  <div class="slds-notify slds-notify--toast slds-theme--error" role="alert">
-    <span class="slds-assistive-text">Error</span>
-    <button class="slds-button slds-notify__close slds-button--icon-inverse" title="Close">
-   	  <span class="slds-assistive-text">Close</span>
-    </button>
-    <div class="slds-notify__content slds-grid">
-      <div class="slds-col slds-align-middle">
-        <h2 class="slds-text-heading--small">Email address you entered is invalid.</h2>
-      </div>
-    </div>
-  </div>
-</div>
-
-    <legend id="newexpenseform" class="slds-text-heading--small 
-      slds-p-vertical--large" align="center">
-     New User Provisioning
-    </legend>
+	<aura:attribute name="email" type="String"/>
+  	<aura:attribute name="firstName" type="String"/>
+  	<aura:attribute name="lastName" type="String"/>
+  	
+  	<aura:set attribute="title" value="A test app with grey background"/>
+    <aura:set attribute="loadingText" value="Woohoo! this is cool!!"/>
     
-    
-    
-    
-    <form class="slds-form--stacked">
-       <div class="slds-form-element slds-is-required" align="center">
-          <div class="slds-form-element__control">
-              <ui:inputText aura:id="useremail" label="User Email"
-                  class="slds-input"
-                  labelClass="slds-form-element__label"
-                  value="{!v.user.Email}"
-                  required="true"
-                  blur="{!c.handleBlur}"
-                  click="{!c.onEmailClick}"
-                  />
-          </div>
-     </div>
-	<div class="slds-hide" aura:id="accounts">
-  	<div class="slds-form-element slds-lookup" data-select="single">
-  	<div class="slds-form-element__control">
-    <div class="slds-input-has-icon slds-input-has-icon--right">
-    	  <c:CC_AccountBrowser />
-    </div>
-  	</div>
-	</div>
-  	</div>
-
-     <div class="slds-form-element slds-is-required">
-          <div class="slds-form-element__control">
-              <ui:inputText aura:id="username" label="User Name"
-                  class="slds-input"
-                  labelClass="slds-form-element__label"
-                  value="{!v.user.Name}"
-                  disabled="true"
-                  required="true"/>
-
-          </div>
-      </div>
+    <style>
+        html{
+          background-color: rgb(244, 246, 249);
+        }
+    </style>
+	
  
-  
-  <div>
-  <br></br>
-  <br></br>
-  <br></br>
-  </div>
-  <div class="slds-hide" aura:id="buttons">
-  	<lightning:button variant="brand" label="Submit" iconName="utility:user" iconPosition="left" onclick="{!c.handleClick }" />
-  	<lightning:button variant="brand" label="Cancel" iconName="utility:ban" iconPosition="left" onclick="{!c.handleClick }" />
-  
-  </div>
-    </form>
-    
-  </fieldset>
- </div>
+ 
+<!--wizard component-->
+    <div class="slds-m-top--large slds-p-around--medium" >
+        <c:LightningWizardProcess aura:id="wizardProcess" 
+                                  steps="User Info, Account, Confirm, Confirmation" 
+                                  newStepEvent="{!c.newStep}"
+                                  cancelEvent="{!c.cancel}"
+                                  finishEvent="{!c.finish}">
+            <!--page1-->
+            <div class="slds-hide">
+          		<div class="slds-input">
+      			<c:CC_UserInfoComponent />
+    		</div>
+            </div>
+            <!--page2-->
+            
+            <div class="slds-hide">
+ 			<div class="slds-input">
+ 				<c:CC_AccountSearch />
+    		</div>
+                <!--replace it with the your page content or another components-->
+            </div>
+            <!--page3-->
+            <div class="slds-hide">
+              			<div class="slds-input">
+ 				<c:UpNewUserConfirmComponent/>
+    		</div>
+                 
+            </div>
+            <!--page4-->
+            <div class="slds-hide">
+                Step 4 content
+                <!--replace it with the your page content or another components-->
+            </div>
+            
+        </c:LightningWizardProcess>
+    </div>
+
  
 </aura:component>

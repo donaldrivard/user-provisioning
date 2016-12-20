@@ -59,24 +59,16 @@
     getAccounts : function(component) {
 
         // Search params
-    	console.log('1');
-        var searchTerms = component.find('searchBox').get('v.value');
-        console.log('2 ' + searchTerms);
+    	var searchTerms = component.find('searchBox').get('v.value');
         // Search method
         var action = component.get('c.lookupAccounts');
-console.log('3');
         action.setParams({
             "searchTerms" : searchTerms
         
         });
-        console.log('4');
         action.setCallback(this, function(response) {
-        		console.log('5');
             if (component.isValid() && response.getState() ==='SUCCESS') {
                 var results = response.getReturnValue();
-                console.log('results ' + results);
-                console.log('Customer search result: ', response.getReturnValue());
-                console.log('results length ' + results.length);
                 // Set the results returned from Demandware
                 this.setResults(component, results,results.length );
             } else {
@@ -95,17 +87,37 @@ console.log('3');
 
     setResults : function(component, accounts, resultSize) {
 
-        var pageSize = component.get('v.pageSize');
-
         // Set the result size
-        component.set('v.resultSize', resultSize);
         console.log('Found ' + resultSize + ' results');
+        console.log('Found ' + accounts);
 
         // Set the customers
         component.set('v.accounts', accounts);
-        console.log('accounts: ', accounts);
-
-        // Set the number of pages
-        component.set('v.pageCount', Math.floor(resultSize / pageSize) + 1);
-    }
+        
+        var accountMap = new Map();
+       
+        
+        for(var i=0;i<resultSize;i++){
+        	accountMap[accounts[i].Id] = accounts[i];
+        }
+        component.set('v.accountMap', accountMap);
+    },
+    
+     updateUI : function(component, email) {
+    	 
+    	if(email != 'undefined'){	
+    	 if((email.endsWith('@salesforce.com')) || (email.endsWith('@demandware.com')) ){
+    		 $A.util.addClass(component.find('internal'), 'slds-show');
+    		 $A.util.removeClass(component.find('internal'), 'slds-hide');
+    		 $A.util.addClass(component.find('external'), 'slds-hide');
+    		 $A.util.removeClass(component.find('external'), 'slds-show');
+    	 }else{
+    		 $A.util.addClass(component.find('external'), 'slds-show');
+    		 $A.util.removeClass(component.find('external'), 'slds-hide');
+    		 $A.util.addClass(component.find('internal'), 'slds-hide');
+    		 $A.util.removeClass(component.find('internal'), 'slds-show');
+    	 }
+    }	 
+     }
+     
 })

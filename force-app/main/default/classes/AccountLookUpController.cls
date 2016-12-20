@@ -11,5 +11,13 @@ public class AccountLookUpController {
       	
     }
  
- 
+	 @AuraEnabled
+    public static Account lookupAccount(String Id) {
+    	System.debug('DON  Id ' + Id);
+		Account account = LookupSObjectController.lookupAccount(Id);
+		System.debug('DON  accounts ' + account);
+		return account;	
+      	
+    }
+	 
 }

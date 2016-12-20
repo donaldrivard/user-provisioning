@@ -1,0 +1,84 @@
+<aura:component>
+
+	<aura:attribute name="email" type="String"/>
+  	<aura:attribute name="name" type="String"/>
+  	<aura:attribute name="firstName" type="String"/>
+  	<aura:attribute name="lastName" type="String"/>
+  	<aura:attribute name="accountId" type="String"/>
+  	<aura:attribute name="accountType" type="String"/>
+  	<aura:attribute name="accountName" type="String"/>
+  	<aura:attribute name="accountInfo" type="String"/>
+  	
+  	
+
+	<aura:handler event="c:CC_UserInfoEvent" action="{!c.handleConfirmUserInfo}"/>
+	<aura:handler event="c:CC_AccountSelectedEvent" action="{!c.handleAccountEvent}"/>
+	
+	<aura:handler name="init" value="{!this}" action="{!c.init}"/>
+		
+	<div>
+	
+		<div class="slds-form-element slds-is-required" align="left">
+          <div class="slds-form-element__control">
+              <ui:inputText aura:id="lastName" label="Last Name"
+                  class="slds-input"
+                  labelClass="slds-form-element__label"
+                  value="{!v.lastName}"
+                  required="true"
+                  disabled="true"
+                  />
+          </div>
+    	 </div>
+		
+			<div class="slds-form-element slds-is-required" align="left">
+          <div class="slds-form-element__control">
+              <ui:inputText aura:id="firstName" label="First Name"
+                  class="slds-input"
+                  labelClass="slds-form-element__label"
+                  value="{!v.firstName}"
+                  required="true"
+                  disabled="true"
+                  />
+          </div>
+    	 </div>
+	
+	
+			<div class="slds-form-element slds-is-required" align="left">
+          		<div class="slds-form-element__control">
+              <ui:inputText aura:id="lastName" label="Email"
+                  class="slds-input"
+                  labelClass="slds-form-element__label"
+                  value="{!v.email}"
+                  required="true"
+                  disabled="true"
+                  />
+          </div>
+    	 </div>
+	
+			<div class="slds-form-element slds-is-required" align="left">
+          		<div class="slds-form-element__control">
+              <ui:inputText aura:id="lastName" label="Username"
+                  class="slds-input"
+                  labelClass="slds-form-element__label"
+                  value="{!v.name}"
+                  required="true"
+                  disabled="true"
+                  />
+          </div>
+    	 </div>
+    	 
+    	 <div aura:id="accountInfo" class="slds-form-element slds-is-required slds-hide" align="left">
+          		<div class="slds-form-element__control">
+              <ui:inputText aura:id="account" label="Account"
+                  class="slds-input"
+                  labelClass="slds-form-element__label"
+                  value="{!v.accountInfo}"
+                  required="true"
+                  disabled="true"
+                  />
+          </div>
+    	 </div>
+	<br></br>
+	</div>
+	
+</aura:component>	

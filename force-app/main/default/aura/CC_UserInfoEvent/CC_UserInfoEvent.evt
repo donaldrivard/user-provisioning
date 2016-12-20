@@ -1,0 +1,5 @@
+<aura:event type="APPLICATION" description="User Info Event">
+	<aura:attribute name="email" type="String" />
+	<aura:attribute name="firstName" type="String" />
+	<aura:attribute name="lastName" type="String" />
+</aura:event>
