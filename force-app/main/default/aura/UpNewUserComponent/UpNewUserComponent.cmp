@@ -6,9 +6,6 @@
   	<aura:attribute name="firstName" type="String"/>
   	<aura:attribute name="lastName" type="String"/>
   	
-  	<aura:set attribute="title" value="A test app with grey background"/>
-    <aura:set attribute="loadingText" value="Woohoo! this is cool!!"/>
-    
     <style>
         html{
           background-color: rgb(244, 246, 249);

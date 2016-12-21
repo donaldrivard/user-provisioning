@@ -2,7 +2,6 @@
     searchAccounts : function(component) {
 
         // Reset page to 1
-        this.setPage(component, 1);
 
         // Validate input
         var searchTerms = component.find('searchBox').get('v.value');
@@ -26,36 +25,8 @@
         component.find('spinner').hide();
     },
 
-    setPage : function(component, pageNumber) {
-
-        var maxPageNumber = component.get('v.pageCount');
-
-        if (pageNumber && pageNumber > 0 && pageNumber <= maxPageNumber) {
-            component.set('v.pageNumber', pageNumber);
-        }
-    },
-
-    previousPage : function(component) {
-
-        var currentPageNumber = component.get('v.pageNumber');
-
-        if (currentPageNumber > 1) {
-            component.set('v.pageNumber', currentPageNumber - 1);
-            this.getAccounts(component);
-        }
-    },
-
-    nextPage : function(component) {
-
-        var currentPageNumber = component.get('v.pageNumber');
-        var maxPageNumber = component.get('v.pageCount');
-
-        if (currentPageNumber < maxPageNumber) {
-            component.set('v.pageNumber', currentPageNumber + 1);
-            this.getAccounts(component);
-        }
-    },
-
+ 
+    
     getAccounts : function(component) {
 
         // Search params
