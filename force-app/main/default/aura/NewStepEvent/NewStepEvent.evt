@@ -1,0 +1,3 @@
+<aura:event type="COMPONENT" description="Wizard New Step Event">
+   <aura:attribute name="newStep" type="Integer"/>
+</aura:event>
