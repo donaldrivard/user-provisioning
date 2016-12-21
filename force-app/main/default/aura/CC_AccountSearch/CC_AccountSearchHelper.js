@@ -1,8 +1,5 @@
 ({
     searchAccounts : function(component) {
-
-        // Reset page to 1
-
         // Validate input
         var searchTerms = component.find('searchBox').get('v.value');
         console.log('Search Terms = ' + searchTerms);

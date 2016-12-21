@@ -6,6 +6,8 @@
   	<aura:attribute name="firstName" type="String"/>
   	<aura:attribute name="lastName" type="String"/>
   	
+  	<aura:attribute name="last2Name" type="String"/>
+  	
     <style>
         html{
           background-color: rgb(244, 246, 249);
