@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#1589EE</headerColor>
+    </brand>
+    <description>This is just a test</description>
+    <formFactors>Large</formFactors>
+    <label>User Provisioning</label>
+    <navType>Standard</navType>
+    <tab>New_User_Provisioning</tab>
+    <uiType>Lightning</uiType>
+</CustomApplication>
