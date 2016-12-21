@@ -1,1 +1,1 @@
-<aura:event type="COMPONENT" description="Event Cancel template" />
+<aura:event type="COMPONENT" description="Event Wizard Cancel template" />
