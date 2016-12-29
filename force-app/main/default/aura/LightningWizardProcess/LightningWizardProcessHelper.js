@@ -39,6 +39,14 @@
         return false;
     },
     
+     isConfirmStep : function(component, nextStep) {
+        var steps = component.get("v.steps"); 
+        if (nextStep==steps.length-2){
+            return true;
+        }
+        return false;
+    },
+    
     createWizardNavigationButtons : function(component){
         $A.createComponents([
             ["lightning:button",{
@@ -51,6 +59,7 @@
                 "label" : "Previous",
                 "onclick" : component.getReference("c.previous")
             }],
+         
             ["lightning:button",{
                 "variant" : "neutral",
                 "label" : "Next",
@@ -97,6 +106,43 @@
             }
         );
         
-    }
+    },
+    
+      createConfirmWizardNavigationButtons : function(component){
+        $A.createComponents([
+            ["lightning:button",{
+                "variant" : "neutral",
+                "label" : "Cancel",
+                "onclick" : component.getReference("c.cancel")
+            }],
+            ["lightning:button",{
+                "variant" : "neutral",
+                "label" : "Previous",
+                "onclick" : component.getReference("c.previous")
+            }],
+         
+            ["lightning:button",{
+                "variant" : "neutral",
+                "label" : "Confirm",
+                "onclick" : component.getReference("c.next")
+            }]
+        ],
+                            function(components, status, errorMessage){
+                                if (status === "SUCCESS") {
+                                    component.set("v.buttons", components);
+                                }
+                                else if (status === "INCOMPLETE") {
+                                    console.log("No response from server or client is offline.")
+                                    // Show offline error
+                                }
+                                    else if (status === "ERROR") {
+                                        console.log("Error: " + errorMessage);
+                                        // Show error message
+                                    }
+                            }
+                           );
+    },
+  
+    
     
 })

@@ -1,1 +1,5 @@
-<aura:application implements="force:appHostable" extends="force:slds" ></aura:application>
+<aura:application implements="force:appHostable" extends="force:slds" >
+
+<c:UpNewUserComponent />
+
+</aura:application>

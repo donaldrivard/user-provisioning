@@ -4,8 +4,13 @@
         
         // debugger;
         var currentStep = component.get('v.currentStep');
+        console.log('currentStep ' + currentStep);
         var params = event.getParam('arguments');
+        
+        console.log('params ' + params);
         var newStep = params[0];
+        
+        console.log('newStep ' + newStep);
         
         //hide old step
         var oldStepComp = component.get('v.body')[currentStep];
@@ -20,8 +25,13 @@
         helper.showProgress(component);
         helper.hideSpinner(component);
         //if it is the last step dynmacially create the finish button
+       
         if (helper.isFinalStep(component,newStep)) {       
             helper.createFinishButton(component);
+        }
+        
+        if (helper.isConfirmStep(component,newStep)) {       
+            helper.createConfirmWizardNavigationButtons(component);
         }
         
     },
@@ -31,11 +41,12 @@
         var nextStep = component.get("v.currentStep")+1;  
         var newStepEvent = component.getEvent("newStepEvent");
         
-        helper.showSpinner(component);
+        //helper.showSpinner(component);
         
         newStepEvent.setParam("newStep", nextStep);  
         newStepEvent.fire();      
     },
+    
     
     previous : function(component, event, helper) {
         var previousStep = component.get("v.currentStep")-1;

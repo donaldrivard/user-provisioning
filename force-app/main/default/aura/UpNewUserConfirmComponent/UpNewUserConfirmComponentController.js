@@ -1,9 +1,20 @@
 
 ({
 	  init : function(component,event,helper){
-	  
+		  
 	  },
 	  
+	  closeToastMessage : function(component,event,helper){
+		  	$A.util.removeClass(component.find('eMessage'), 'slds-show');
+            $A.util.addClass(component.find('eMessage'), 'slds-hide');
+            	
+	  },
+	  
+	  handleCreateNewUserEvent: function(component,event,helper){
+		  console.log('Handled new User event');
+		  helper.createNewInternalUser(component);
+	  
+	  },
 	  
 	  handleConfirmUserInfo : function(component, event, helper) {
         console.log('Confirm User handleUserInfo Event handled');

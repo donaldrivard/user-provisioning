@@ -7,13 +7,13 @@ public with sharing class UserProvisioningControllerTest {
 	
 	
 	 static testMethod void testInternalUserCreation(){
-		Account account = new Account(Name='TestAccount');
-		insert account;
+	//	Account account = new Account(Name='TestAccount');
+	//	insert account;
 		
-		System.assert(account.Id !=  null);
+//		System.assert(account.Id !=  null);
 		
 		Test.startTest();
-			User user = UserProvisioningController.createInternalUser(account.Id, 'foo@bar.com','foo','bar', 'NewUserProfile' );	
+			User user = UserProvisioningController.createInternalUser('foo@bar.com','foo','bar', 'NewUserProfile' );	
 		Test.stopTest();
 		
 		System.assert(user !=  null);

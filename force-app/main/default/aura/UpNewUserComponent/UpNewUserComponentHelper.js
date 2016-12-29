@@ -1,15 +1,9 @@
 ({
-
-
-	showSpinner : function (component) {
-        component.find('spinner').show();
-    },
-
-    hideSpinner : function (component) {
-        component.find('spinner').hide();
-    },
-	
-		
+	fireCreateNewUserEvent : function (component,event){
+		var newUserEvent = $A.get("e.c:CC_CreateNewUserEvent");
+		newUserEvent.fire();
+		console.log('fireCreateNewUserEvent FIRED')
+	},
 	
 	showAccountBrowser : function(component) {
 		$A.util.removeClass(component.find('accounts'), 'slds-hide');
@@ -46,8 +40,6 @@
 	
 	hideEmailToast : function(component) {
 		$A.util.addClass(component.find('emailalert'), 'slds-notify_container');
-	},
-
-	
-
+	}
+	 
 })
