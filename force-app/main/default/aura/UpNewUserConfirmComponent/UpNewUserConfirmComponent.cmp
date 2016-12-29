@@ -1,20 +1,46 @@
-<aura:component>
+<aura:component controller="UserProvisioningController">
 
-	<aura:attribute name="email" type="String"/>
-  	<aura:attribute name="name" type="String"/>
-  	<aura:attribute name="firstName" type="String"/>
-  	<aura:attribute name="lastName" type="String"/>
+	<aura:attribute name="email" type="String" default="d@salesforce.com" />
+  	<aura:attribute name="name" type="String" default="d@salesforce.com"/>
+  	<aura:attribute name="firstName" type="String" default="d"/>
+  	<aura:attribute name="lastName" type="String" default="d"/>
   	<aura:attribute name="accountId" type="String"/>
   	<aura:attribute name="accountType" type="String"/>
   	<aura:attribute name="accountName" type="String"/>
   	<aura:attribute name="accountInfo" type="String"/>
   	
+  	<aura:attribute name="errorMessage" type="String" default="ERROR!"/>
   	
+  	<aura:registerEvent name="createNewUserConfirmationEvent" type="c:CC_CreateNewUserConfirmationEvent"/>
 
 	<aura:handler event="c:CC_UserInfoEvent" action="{!c.handleConfirmUserInfo}"/>
 	<aura:handler event="c:CC_AccountSelectedEvent" action="{!c.handleAccountEvent}"/>
-	
 	<aura:handler name="init" value="{!this}" action="{!c.init}"/>
+	<aura:handler event="c:CC_CreateNewUserEvent" action="{!c.handleCreateNewUserEvent}"/>
+	
+	
+	
+<c:CC_Spinner aura:id="userspinner"> 
+
+	<div align="center">
+	<div aura:id="eMessage" class="slds-hide">	
+  	<div class="slds-notify slds-notify--alert slds-theme--error slds-theme--alert-texture" role="alert">
+    <span class="slds-assistive-text">Info</span>
+    <div align="right">
+    <lightning:button label="Close"
+                                iconName="utility:close"
+                                iconPosition="right"
+                                variant="destructive"
+                                onclick="{!c.closeToastMessage }"
+                                />
+      </div>                          
+    <div class="slds-notify__content">
+      <h2 class="slds-text-heading--small">{!v.errorMessage}</h2>
+    </div>
+  </div>
+</div>	
+	</div>
+	
 		
 	<div>
 	
@@ -80,5 +106,5 @@
     	 </div>
 	<br></br>
 	</div>
-	
+</c:CC_Spinner>	
 </aura:component>	

@@ -18,12 +18,13 @@
  
     
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+   
     
     <!--lighning spinner base component-->
     <div aura:id="spinner">
         <lightning:spinner variant="brand" size="medium"/>
     </div>
-    
+    <div style ="slds">
     <!--Wizard html-->
     <div class="slds-wizard" role="navigation">
         <ol class="slds-wizard__list">
@@ -36,7 +37,7 @@
                 </li>
             </aura:iteration>
         </ol>
-        <span class="slds-wizard__progress" z-index="auto">
+        <span class="slds-wizard__progress" z-index="0">
             <span  aura:id="progressBar" class="slds-wizard__progress-bar" style="{!'width:'+v.progressPercentage+'%;'}"></span>
         </span>
     </div>
@@ -56,5 +57,5 @@
             {!v.buttons}
         </div>
     </div> 
-    
+    </div>
 </aura:component>

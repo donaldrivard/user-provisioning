@@ -1,6 +1,9 @@
 
 ({
-  handleBlur : function(cmp, event, helper){
+ init : function(cmp, event, helper){
+	
+ },	
+  onEmailBlur : function(cmp, event, helper){
 
 		  var email = cmp.find("useremail").get("v.value");
 		  var firstName = cmp.find("firstName").get("v.value");
@@ -21,6 +24,14 @@
 	  },
 	
 	   onEmailClick : function(cmp, event, helper) {
+    		helper.hideEmailToast(cmp)
+    	},
+    	
+    	onEmailFocus : function(cmp, event, helper) {
+    		helper.hideEmailToast(cmp)
+    	},
+		
+		onEmailChange : function(cmp, event, helper) {
     		helper.hideEmailToast(cmp)
     	}
 	  

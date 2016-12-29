@@ -36,7 +36,7 @@
   <c:CC_Spinner aura:id="spinner"> 
 
 	    <div class="slds-grid slds-wrap slds-show" align="center" aura:id="internal">
-				Salesforce and Commerce Cloud users does not have an Account.
+				Salesforce and Commerce Cloud users do not have an Account.
 		</div>
     <br> </br>
     <div class="slds-grid slds-wrap slds-hide" aura:id="external">

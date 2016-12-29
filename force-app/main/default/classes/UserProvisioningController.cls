@@ -17,8 +17,8 @@ public with sharing class UserProvisioningController {
     }
  
 @AuraEnabled
-    public static User createInternalUser(String accountId, String email, String firstName, String lastName, String profileName ) {
-	 		User user = CC_Helper.createNewInternalUser(accountId,email,firstName,lastName,profileName);
+    public static User createInternalUser(String email, String firstName, String lastName, String profileName ) {
+	 		User user = CC_Helper.createNewInternalUser(email,firstName,lastName,profileName);
 			return user;
 	}
  	

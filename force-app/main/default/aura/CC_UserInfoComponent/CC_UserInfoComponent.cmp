@@ -1,7 +1,7 @@
 <aura:component>
 
-<aura:attribute name="user" type="User" default="{'sobjectType':'User', 'Name':'','Email':''}"/>
-
+<aura:attribute name="user" type="User" default="{'sobjectType':'User', 'firstName':'d','Email':''}"/>
+<aura:handler name="init" value="{!this}" action="{!c.init}"/>
 <aura:registerEvent name="userinfo" type="c:CC_UserInfoEvent" />
 
 
@@ -53,8 +53,10 @@
                   labelClass="slds-form-element__label"
                   value="{!v.user.Email}"
                   required="true"
-                  blur="{!c.handleBlur}"
+                  blur="{!c.onEmailBlur}"
                   click="{!c.onEmailClick}"
+                  focus ="{!c.onEmailFocus}"
+                  change ="{!c.onEmailChange}"
                   />
           </div>
      </div>

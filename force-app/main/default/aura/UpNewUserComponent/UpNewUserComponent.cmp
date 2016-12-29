@@ -1,10 +1,15 @@
-<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable"  controller="AccountLookupController" >
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable"  controller="AccountLookupController"  >
 	
 	<aura:handler name="init" value="{!this}" action="{!c.init}"/>
 	
-	<aura:attribute name="email" type="String"/>
-  	<aura:attribute name="firstName" type="String"/>
-  	<aura:attribute name="lastName" type="String"/>
+	<aura:attribute name="currentStep" type="Integer" default="0"/>
+	<aura:attribute name="email" type="String" default="d@salesforce.com"/>
+  	<aura:attribute name="firstName" type="String" default="d"/>
+  	<aura:attribute name="lastName" type="String" default="d"/>
+  	
+  	<aura:registerEvent name="createNewUserEvent" type="c:CC_CreateNewUserEvent"/>
+  	<aura:handler event="c:CC_CreateNewUserConfirmationEvent" action="{!c.handleCreateNewUserConfirmationEvent}"/>
+  	
   	
   	
     <style>
@@ -13,7 +18,7 @@
         }
     </style>
 	
- 
+ <div style ="slds">
  
 <!--wizard component-->
     <div class="slds-m-top--large slds-p-around--medium" >
@@ -45,12 +50,13 @@
             </div>
             <!--page4-->
             <div class="slds-hide">
-                Step 4 content
-                <!--replace it with the your page content or another components-->
-            </div>
+            <div class="slds-input">
+               	<c:CC_CreateUserConfirmationComponent/>
+              </div> 	
+    	    </div>
             
         </c:LightningWizardProcess>
     </div>
 
- 
+ </div>
 </aura:component>
