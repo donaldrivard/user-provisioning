@@ -1,0 +1,2342 @@
+[
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1481296551000,
+            "changeTime": 1481296551000,
+            "contentHash": "afa93b7c40deab8cdbd247350ad17a9bc39369cd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main",
+            "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1480534782000,
+            "changeTime": 1480534782000,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default",
+            "isDirectory": true,
+            "size": 272,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "39a9512296c69359da40aae0ff34ed260b75c6c7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/applications",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/applications",
+            "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1482942949000,
+            "changeTime": 1482942949000,
+            "contentHash": "0e4544bbd76b79368259364f61b91537e47225b1",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/applications/User_Provisioning.app-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/applications/User_Provisioning.app-meta.xml",
+            "isDirectory": false,
+            "size": 421,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "df2cc65ee372a32a636509e5d130c40170ef560f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura",
+            "isDirectory": true,
+            "size": 850,
+            "modifiedTime": 1483041416000,
+            "changeTime": 1483041416000,
+            "contentHash": "fb6442ae647f125c99dbb662c269827aee0d1c38",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountBrowser",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountBrowser",
+            "isDirectory": true,
+            "size": 272,
+            "modifiedTime": 1482943060000,
+            "changeTime": 1482943060000,
+            "contentHash": "d35e9ff1c4ca160abb155fffeff6af82ecbe12b6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountBrowser/CC_AccountBrowser.cmp",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountBrowser/CC_AccountBrowser.cmp",
+            "isDirectory": false,
+            "size": 769,
+            "modifiedTime": 1481743093000,
+            "changeTime": 1481743093000,
+            "contentHash": "f179c6150a0a5bbac443d66cfeda7e73a303c3f7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountBrowser/CC_AccountBrowser.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountBrowser/CC_AccountBrowser.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 249,
+            "modifiedTime": 1480960434000,
+            "changeTime": 1480960434000,
+            "contentHash": "96d29191d2c0e3f84e5414ede73cef1bdf1dac4d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountBrowser/CC_AccountBrowser.css",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountBrowser/CC_AccountBrowser.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1480960434000,
+            "changeTime": 1480960434000,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountBrowser/CC_AccountBrowserController.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountBrowser/CC_AccountBrowserController.js",
+            "isDirectory": false,
+            "size": 371,
+            "modifiedTime": 1480990811000,
+            "changeTime": 1480990811000,
+            "contentHash": "268dc734aad077faca42d90f98b3f5c629d8c01c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountBrowser/CC_AccountBrowserHelper.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountBrowser/CC_AccountBrowserHelper.js",
+            "isDirectory": false,
+            "size": 41,
+            "modifiedTime": 1480960434000,
+            "changeTime": 1480960434000,
+            "contentHash": "a7d178cb9a0ad1a1ff82eac22079a27ab838144b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountBrowser/CC_AccountBrowserRenderer.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountBrowser/CC_AccountBrowserRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1480960434000,
+            "changeTime": 1480960434000,
+            "contentHash": "b36185dd4dd5079811f45629fdd4b5d44366ca49",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountDetailComponent",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountDetailComponent",
+            "isDirectory": true,
+            "size": 272,
+            "modifiedTime": 1481743093000,
+            "changeTime": 1481743093000,
+            "contentHash": "008cb4107220db09b9b336e76fe1b794b677a822",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountDetailComponent/CC_AccountDetailComponent.cmp",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountDetailComponent/CC_AccountDetailComponent.cmp",
+            "isDirectory": false,
+            "size": 1533,
+            "modifiedTime": 1481743093000,
+            "changeTime": 1481743093000,
+            "contentHash": "e243492958d09d1a78f3f566bd4e390571bce37f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountDetailComponent/CC_AccountDetailComponent.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountDetailComponent/CC_AccountDetailComponent.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 257,
+            "modifiedTime": 1480964640000,
+            "changeTime": 1480964640000,
+            "contentHash": "511b3061851b9d02e2b2e22005f95bd68913385a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountDetailComponent/CC_AccountDetailComponent.css",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountDetailComponent/CC_AccountDetailComponent.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1480964640000,
+            "changeTime": 1480964640000,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountDetailComponent/CC_AccountDetailComponentController.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountDetailComponent/CC_AccountDetailComponentController.js",
+            "isDirectory": false,
+            "size": 597,
+            "modifiedTime": 1480991433000,
+            "changeTime": 1480991433000,
+            "contentHash": "98f8117db31d588aeb78e707d4169a927f73fdd9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountDetailComponent/CC_AccountDetailComponentHelper.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountDetailComponent/CC_AccountDetailComponentHelper.js",
+            "isDirectory": false,
+            "size": 3877,
+            "modifiedTime": 1480965130000,
+            "changeTime": 1480965130000,
+            "contentHash": "23b5753536b188bf3d2fe70abb9d7817d8cc772c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountDetailComponent/CC_AccountDetailComponentRenderer.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountDetailComponent/CC_AccountDetailComponentRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1480964640000,
+            "changeTime": 1480964640000,
+            "contentHash": "b36185dd4dd5079811f45629fdd4b5d44366ca49",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch",
+            "isDirectory": true,
+            "size": 374,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "952233960803a21a306d42bd51bff319cedc45f6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearch.auradoc",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearch.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearch.cmp",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearch.cmp",
+            "isDirectory": false,
+            "size": 2250,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "f3b2fb15150a9b482f0e30c92f4ec3f3ac24e63a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearch.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearch.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 219,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "7505e2f573dd1aed08c017270468eabfa0f0b81b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearch.css",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearch.css",
+            "isDirectory": false,
+            "size": 139,
+            "modifiedTime": 1480961668000,
+            "changeTime": 1480961668000,
+            "contentHash": "ca036dacec39d7ec0e7dc0a7d58d6a9ae4c41b06",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearch.design",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearch.design",
+            "isDirectory": false,
+            "size": 39,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "23788998e40fefc4b806a91823183af35d6f7dfa",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearch.svg",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearch.svg",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "b534bdd176c8860d6e603bb5e978ce6ed9650989",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearchController.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearchController.js",
+            "isDirectory": false,
+            "size": 1555,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "90c1ef61ab2d3d75b9a29bf070140ff2949ad75f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearchHelper.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearchHelper.js",
+            "isDirectory": false,
+            "size": 2791,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "fad641a80c6a0b3e85526a986a4635943a53e2dd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearchRenderer.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSearch/CC_AccountSearchRenderer.js",
+            "isDirectory": false,
+            "size": 48,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "be4fb16cab0788e3690426cade38290457df8023",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSelectedEvent",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSelectedEvent",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "3fb9d183ad6b0a088fa228ac0e3623325dfd6523",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSelectedEvent/CC_AccountSelectedEvent.evt",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSelectedEvent/CC_AccountSelectedEvent.evt",
+            "isDirectory": false,
+            "size": 126,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "62a3e0efbf777cf30d1b1aef922de45660605c7c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSelectedEvent/CC_AccountSelectedEvent.evt-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_AccountSelectedEvent/CC_AccountSelectedEvent.evt-meta.xml",
+            "isDirectory": false,
+            "size": 241,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "bbef4d189276a84358374be93f84d8edcfddf3f1",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_ConfirmEvent",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_ConfirmEvent",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "7517d405054becd489aa09bb8baf2ea9021206cb",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_ConfirmEvent/CC_ConfirmEvent.evt",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_ConfirmEvent/CC_ConfirmEvent.evt",
+            "isDirectory": false,
+            "size": 275,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "8b57d47dbfcebf5297fc675472e17360822aab03",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_ConfirmEvent/CC_ConfirmEvent.evt-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_ConfirmEvent/CC_ConfirmEvent.evt-meta.xml",
+            "isDirectory": false,
+            "size": 247,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "a9b35bb90c11b1b735db1e3db382f4918c897ec0",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateNewUserConfirmationEvent",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateNewUserConfirmationEvent",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "bd37b6c8a6edc8f5074d4c8b1d448a08e934dfa9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateNewUserConfirmationEvent/CC_CreateNewUserConfirmationEvent.evt",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateNewUserConfirmationEvent/CC_CreateNewUserConfirmationEvent.evt",
+            "isDirectory": false,
+            "size": 121,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "3d7f5d0b32253deb369cb1dd56370c995dbcda2d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateNewUserConfirmationEvent/CC_CreateNewUserConfirmationEvent.evt-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateNewUserConfirmationEvent/CC_CreateNewUserConfirmationEvent.evt-meta.xml",
+            "isDirectory": false,
+            "size": 265,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "e8a8723ab83bbe33377e4b393c47573e0a6522f9",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateNewUserEvent",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateNewUserEvent",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "50dedf3c2005d3886786c1a2b962d1e782159405",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateNewUserEvent/CC_CreateNewUserEvent.evt",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateNewUserEvent/CC_CreateNewUserEvent.evt",
+            "isDirectory": false,
+            "size": 62,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "73dd2d6095dcb17e014251e571de76a521b53c49",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateNewUserEvent/CC_CreateNewUserEvent.evt-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateNewUserEvent/CC_CreateNewUserEvent.evt-meta.xml",
+            "isDirectory": false,
+            "size": 253,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "ff6e1330588737c9db7054fc907e8b205f51f519",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateUserConfirmationComponent",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateUserConfirmationComponent",
+            "isDirectory": true,
+            "size": 272,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "5d1fed9c30b40bc03b49858328f7ab5ddb2db943",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateUserConfirmationComponent/CC_CreateUserConfirmationComponent.cmp",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateUserConfirmationComponent/CC_CreateUserConfirmationComponent.cmp",
+            "isDirectory": false,
+            "size": 3007,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "d09caf69991146e1388d32ebb08048dcacb0ac05",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateUserConfirmationComponent/CC_CreateUserConfirmationComponent.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateUserConfirmationComponent/CC_CreateUserConfirmationComponent.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 266,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "09ab7f2a8202ca0ee48fe554d421607f82c2e67b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateUserConfirmationComponent/CC_CreateUserConfirmationComponent.css",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateUserConfirmationComponent/CC_CreateUserConfirmationComponent.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateUserConfirmationComponent/CC_CreateUserConfirmationComponentController.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateUserConfirmationComponent/CC_CreateUserConfirmationComponentController.js",
+            "isDirectory": false,
+            "size": 661,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "f4b6daa36aafbe552023ddb7e74d2a5745b7b1b4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateUserConfirmationComponent/CC_CreateUserConfirmationComponentHelper.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateUserConfirmationComponent/CC_CreateUserConfirmationComponentHelper.js",
+            "isDirectory": false,
+            "size": 41,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "a7d178cb9a0ad1a1ff82eac22079a27ab838144b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateUserConfirmationComponent/CC_CreateUserConfirmationComponentRenderer.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_CreateUserConfirmationComponent/CC_CreateUserConfirmationComponentRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "b36185dd4dd5079811f45629fdd4b5d44366ca49",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonComponent",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonComponent",
+            "isDirectory": true,
+            "size": 272,
+            "modifiedTime": 1480964261000,
+            "changeTime": 1480964261000,
+            "contentHash": "d866f1f3b18fc17ab5c72bda16b514e5fc91d4c7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonComponent/CC_DataButtonComponent.cmp",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonComponent/CC_DataButtonComponent.cmp",
+            "isDirectory": false,
+            "size": 561,
+            "modifiedTime": 1480987837000,
+            "changeTime": 1480987837000,
+            "contentHash": "25669fd8742054d8f4871459020f752575af0517",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonComponent/CC_DataButtonComponent.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonComponent/CC_DataButtonComponent.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 254,
+            "modifiedTime": 1480964261000,
+            "changeTime": 1480964261000,
+            "contentHash": "4635e8c49557cb79aa7a3d05100c5d1be0e5fc4b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonComponent/CC_DataButtonComponent.css",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonComponent/CC_DataButtonComponent.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1480964261000,
+            "changeTime": 1480964261000,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonComponent/CC_DataButtonComponentController.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonComponent/CC_DataButtonComponentController.js",
+            "isDirectory": false,
+            "size": 155,
+            "modifiedTime": 1480964307000,
+            "changeTime": 1480964307000,
+            "contentHash": "33a1b49a922f63579f37804918108c193083c11f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonComponent/CC_DataButtonComponentHelper.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonComponent/CC_DataButtonComponentHelper.js",
+            "isDirectory": false,
+            "size": 239,
+            "modifiedTime": 1480964321000,
+            "changeTime": 1480964321000,
+            "contentHash": "a10085003a68a3700fd747f3f5b412965ebd7057",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonComponent/CC_DataButtonComponentRenderer.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonComponent/CC_DataButtonComponentRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1480964261000,
+            "changeTime": 1480964261000,
+            "contentHash": "b36185dd4dd5079811f45629fdd4b5d44366ca49",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonPressEvent",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonPressEvent",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1480964409000,
+            "changeTime": 1480964409000,
+            "contentHash": "ea99c0c9cd76a2ca64f5c3b90c75a14dfd51df9f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonPressEvent/CC_DataButtonPressEvent.evt",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonPressEvent/CC_DataButtonPressEvent.evt",
+            "isDirectory": false,
+            "size": 118,
+            "modifiedTime": 1480969529000,
+            "changeTime": 1480969529000,
+            "contentHash": "eb8b49eed51e1742baacf5803503e173a1da57e6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonPressEvent/CC_DataButtonPressEvent.evt-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_DataButtonPressEvent/CC_DataButtonPressEvent.evt-meta.xml",
+            "isDirectory": false,
+            "size": 255,
+            "modifiedTime": 1480964409000,
+            "changeTime": 1480964409000,
+            "contentHash": "3752e67e456baa0f35973ed1e9f827c147961a42",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_SetSearchBoxFocus",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_SetSearchBoxFocus",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "4aaa48185b8cbb5224cae1355c83483b0b0c9cc4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_SetSearchBoxFocus/CC_SetSearchBoxFocus.evt",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_SetSearchBoxFocus/CC_SetSearchBoxFocus.evt",
+            "isDirectory": false,
+            "size": 62,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "73dd2d6095dcb17e014251e571de76a521b53c49",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_SetSearchBoxFocus/CC_SetSearchBoxFocus.evt-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_SetSearchBoxFocus/CC_SetSearchBoxFocus.evt-meta.xml",
+            "isDirectory": false,
+            "size": 252,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "f6be5df2bf20c5e8e5f42ceb895c532c869d57ca",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_Spinner",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_Spinner",
+            "isDirectory": true,
+            "size": 272,
+            "modifiedTime": 1483041416000,
+            "changeTime": 1483041416000,
+            "contentHash": "edb080ecc794052d6909eab65582b10b2460b78b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_Spinner/CC_Spinner.cmp",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_Spinner/CC_Spinner.cmp",
+            "isDirectory": false,
+            "size": 1437,
+            "modifiedTime": 1480961741000,
+            "changeTime": 1480961741000,
+            "contentHash": "567060d0defd808018d98d0ed78c6fe067a7c1b6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_Spinner/CC_Spinner.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_Spinner/CC_Spinner.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 242,
+            "modifiedTime": 1480961717000,
+            "changeTime": 1480961717000,
+            "contentHash": "5b456a855d7f6e02fb0b387cdf9cd4230c300031",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_Spinner/CC_Spinner.css",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_Spinner/CC_Spinner.css",
+            "isDirectory": false,
+            "size": 47,
+            "modifiedTime": 1480961753000,
+            "changeTime": 1480961753000,
+            "contentHash": "2cea5c8ce7b65e35543e650ae4b5acad66419ba9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_Spinner/CC_SpinnerController.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_Spinner/CC_SpinnerController.js",
+            "isDirectory": false,
+            "size": 420,
+            "modifiedTime": 1480961764000,
+            "changeTime": 1480961764000,
+            "contentHash": "52584d5a6e6ced6dbcc4ff083a9a231d67a52c2a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_Spinner/CC_SpinnerHelper.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_Spinner/CC_SpinnerHelper.js",
+            "isDirectory": false,
+            "size": 378,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "c3f90a79ab2c6797dc4cc8cad0bbd8c52c2e1cdf",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_Spinner/CC_SpinnerRenderer.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_Spinner/CC_SpinnerRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1480961717000,
+            "changeTime": 1480961717000,
+            "contentHash": "b36185dd4dd5079811f45629fdd4b5d44366ca49",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoComponent",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoComponent",
+            "isDirectory": true,
+            "size": 272,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "a8bddfdeb7ec06269b449baac2326e5955fc57a4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoComponent/CC_UserInfoComponent.cmp",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoComponent/CC_UserInfoComponent.cmp",
+            "isDirectory": false,
+            "size": 2296,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "ea1e760d375bc4c960bded4706c42d29109bf0dc",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoComponent/CC_UserInfoComponent.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoComponent/CC_UserInfoComponent.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 252,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "42e49519158d2258f51044e54d626bf795b3bf38",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoComponent/CC_UserInfoComponent.css",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoComponent/CC_UserInfoComponent.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoComponent/CC_UserInfoComponentController.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoComponent/CC_UserInfoComponentController.js",
+            "isDirectory": false,
+            "size": 1032,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "c7800acdc0d94cfc6376064c6c465419af3cebd6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoComponent/CC_UserInfoComponentHelper.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoComponent/CC_UserInfoComponentHelper.js",
+            "isDirectory": false,
+            "size": 426,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "b8e5f95a72e0b15e72713378a6eb5651f9066546",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoComponent/CC_UserInfoComponentRenderer.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoComponent/CC_UserInfoComponentRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "b36185dd4dd5079811f45629fdd4b5d44366ca49",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoEvent",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoEvent",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "8a48ec73bd1f7767ba607a70df0d81e52282e26e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoEvent/CC_UserInfoEvent.evt",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoEvent/CC_UserInfoEvent.evt",
+            "isDirectory": false,
+            "size": 224,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "a178a791b8bb0415c03fdd40431b783a9dfee10f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoEvent/CC_UserInfoEvent.evt-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_UserInfoEvent/CC_UserInfoEvent.evt-meta.xml",
+            "isDirectory": false,
+            "size": 248,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "ee5994d751c3cbe27f0887d757d02107d8c1830c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App",
+            "isDirectory": true,
+            "size": 306,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "5c45b498f7c94020c7ffef9dd907feea884987b4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App/CC_User_Provisioning_App.app",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App/CC_User_Provisioning_App.app",
+            "isDirectory": false,
+            "size": 118,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "d803b019bce84e7d0a5be8cfe7bef7a4189f0046",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App/CC_User_Provisioning_App.app-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App/CC_User_Provisioning_App.app-meta.xml",
+            "isDirectory": false,
+            "size": 242,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "d2edcf34313ac81f55e4539656d7dbf02a113c80",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App/CC_User_Provisioning_App.auradoc",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App/CC_User_Provisioning_App.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App/CC_User_Provisioning_App.css",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App/CC_User_Provisioning_App.css",
+            "isDirectory": false,
+            "size": 9,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "690dd1ee4df0575d78499135bec93071e468c5a4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App/CC_User_Provisioning_AppController.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App/CC_User_Provisioning_AppController.js",
+            "isDirectory": false,
+            "size": 57,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "b6617c89596c5aa5bced78088a52a8289bf4cb21",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App/CC_User_Provisioning_AppHelper.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App/CC_User_Provisioning_AppHelper.js",
+            "isDirectory": false,
+            "size": 37,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "82bff16b3e0b457e56a7b6c6ea32695c8ebb9d7b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App/CC_User_Provisioning_AppRenderer.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/CC_User_Provisioning_App/CC_User_Provisioning_AppRenderer.js",
+            "isDirectory": false,
+            "size": 48,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "be4fb16cab0788e3690426cade38290457df8023",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/LightningWizardProcess",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/LightningWizardProcess",
+            "isDirectory": true,
+            "size": 204,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "e6e826933145b5754ee415c2d4f5546277007a59",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/LightningWizardProcess/LightningWizardProcess.cmp",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/LightningWizardProcess/LightningWizardProcess.cmp",
+            "isDirectory": false,
+            "size": 2487,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "ba1274e3df59e8bb8460e5dccabcbfb0dc2f882f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/LightningWizardProcess/LightningWizardProcess.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/LightningWizardProcess/LightningWizardProcess.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "a3a27982aa27c48785eb52fcadd6832f536db822",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/LightningWizardProcess/LightningWizardProcessController.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/LightningWizardProcess/LightningWizardProcessController.js",
+            "isDirectory": false,
+            "size": 2340,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "def1d302df294bf670e46e94081c0aae75469bf9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/LightningWizardProcess/LightningWizardProcessHelper.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/LightningWizardProcess/LightningWizardProcessHelper.js",
+            "isDirectory": false,
+            "size": 5351,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "7c8fca2b52cfe3f659d295b4db3686775eca7e2b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/NewStepEvent",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/NewStepEvent",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "fa4a6df95de6be4f09fe180652da16714cf4d956",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/NewStepEvent/NewStepEvent.evt",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/NewStepEvent/NewStepEvent.evt",
+            "isDirectory": false,
+            "size": 130,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "dfeb482c2629edf44a2f233dc00cbd792fc2ae84",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/NewStepEvent/NewStepEvent.evt-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/NewStepEvent/NewStepEvent.evt-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "a3a27982aa27c48785eb52fcadd6832f536db822",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent",
+            "isDirectory": true,
+            "size": 306,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "d79a29beceee1c3471484c7881fc976e564a2e43",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent/UpNewUserComponent.auradoc",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent/UpNewUserComponent.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent/UpNewUserComponent.cmp",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent/UpNewUserComponent.cmp",
+            "isDirectory": false,
+            "size": 2080,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "ff0238f4ef2628c3902ca1362cd2783dad013803",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent/UpNewUserComponent.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent/UpNewUserComponent.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 230,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "83c05fded610bef7ea2e3ea26a94d5424fdfd1f5",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent/UpNewUserComponent.css",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent/UpNewUserComponent.css",
+            "isDirectory": false,
+            "size": 9,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "690dd1ee4df0575d78499135bec93071e468c5a4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent/UpNewUserComponentController.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent/UpNewUserComponentController.js",
+            "isDirectory": false,
+            "size": 1340,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "4d507310b06604104fd97884ffef2b89ba797664",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent/UpNewUserComponentHelper.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent/UpNewUserComponentHelper.js",
+            "isDirectory": false,
+            "size": 1453,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "933cd749d379b7de023d51164ed2a44da5f2182e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent/UpNewUserComponentRenderer.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserComponent/UpNewUserComponentRenderer.js",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "faac0ce78e760351e266f3eab47d5236f0e0294a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserConfirmComponent",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserConfirmComponent",
+            "isDirectory": true,
+            "size": 272,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "0e513538be1134fb3d6de195649535c9efe511f8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserConfirmComponent/UpNewUserConfirmComponent.cmp",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserConfirmComponent/UpNewUserConfirmComponent.cmp",
+            "isDirectory": false,
+            "size": 4103,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "8b116c66db741c183c44bc7cca693df1809a1252",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserConfirmComponent/UpNewUserConfirmComponent.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserConfirmComponent/UpNewUserConfirmComponent.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 257,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "fd2a16c1fc6a9bf49e812ed255652b5f2cfcb5f4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserConfirmComponent/UpNewUserConfirmComponent.css",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserConfirmComponent/UpNewUserConfirmComponent.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserConfirmComponent/UpNewUserConfirmComponentController.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserConfirmComponent/UpNewUserConfirmComponentController.js",
+            "isDirectory": false,
+            "size": 1928,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "e28a262e7046d4a0b2492b7a678be252e0c292e6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserConfirmComponent/UpNewUserConfirmComponentHelper.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserConfirmComponent/UpNewUserConfirmComponentHelper.js",
+            "isDirectory": false,
+            "size": 1981,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "7e9404a9032017ca6e8bf9955818f1a4da1b4f4d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserConfirmComponent/UpNewUserConfirmComponentRenderer.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/UpNewUserConfirmComponent/UpNewUserConfirmComponentRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "b36185dd4dd5079811f45629fdd4b5d44366ca49",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/WizardCancelEvent",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/WizardCancelEvent",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "20ca7c0f9dd061b8553cb147e0355382e22e6d90",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/WizardCancelEvent/WizardCancelEvent.evt",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/WizardCancelEvent/WizardCancelEvent.evt",
+            "isDirectory": false,
+            "size": 74,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "2c60582b968e910eea6b88ca18af6220a5d1f91b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/WizardCancelEvent/WizardCancelEvent.evt-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/WizardCancelEvent/WizardCancelEvent.evt-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "a3a27982aa27c48785eb52fcadd6832f536db822",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/WizardFinishEvent",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/WizardFinishEvent",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "672987838534e2b9185dc08682c26b15ea1aeb81",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/WizardFinishEvent/WizardFinishEvent.evt",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/WizardFinishEvent/WizardFinishEvent.evt",
+            "isDirectory": false,
+            "size": 74,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "1b0dfc9186d8414eeed9958894d6dc54de3af6f6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/WizardFinishEvent/WizardFinishEvent.evt-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/WizardFinishEvent/WizardFinishEvent.evt-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "a3a27982aa27c48785eb52fcadd6832f536db822",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svg",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svg",
+            "isDirectory": true,
+            "size": 272,
+            "modifiedTime": 1480950866000,
+            "changeTime": 1480950866000,
+            "contentHash": "0efcc5558b744e876a05c17c72308f4db5e8b128",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svg/svg.cmp",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svg/svg.cmp",
+            "isDirectory": false,
+            "size": 391,
+            "modifiedTime": 1480950882000,
+            "changeTime": 1480950882000,
+            "contentHash": "97a9bffb7acd3ca1224f7436483d05f1230e22a6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svg/svg.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svg/svg.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 235,
+            "modifiedTime": 1480950866000,
+            "changeTime": 1480950866000,
+            "contentHash": "53d1ae54976530426afab4c6bb13a25e94334fd4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svg/svg.css",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svg/svg.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1480950866000,
+            "changeTime": 1480950866000,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svg/svgController.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svg/svgController.js",
+            "isDirectory": false,
+            "size": 61,
+            "modifiedTime": 1480950866000,
+            "changeTime": 1480950866000,
+            "contentHash": "b1b80c03517595de32055092a501e68c53cfb549",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svg/svgHelper.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svg/svgHelper.js",
+            "isDirectory": false,
+            "size": 41,
+            "modifiedTime": 1480950866000,
+            "changeTime": 1480950866000,
+            "contentHash": "a7d178cb9a0ad1a1ff82eac22079a27ab838144b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svg/svgRenderer.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svg/svgRenderer.js",
+            "isDirectory": false,
+            "size": 591,
+            "modifiedTime": 1480950921000,
+            "changeTime": 1480950921000,
+            "contentHash": "9967a7e4253502720214c33933689613ac16cacd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon",
+            "isDirectory": true,
+            "size": 306,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "3ae76b1a8dfd3a1094cbaf888a2431a93b988223",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon/svgIcon.auradoc",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon/svgIcon.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon/svgIcon.cmp",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon/svgIcon.cmp",
+            "isDirectory": false,
+            "size": 1073,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "e1e8a8bd0c7375fc58164af3b5f6334aae2c8085",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon/svgIcon.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon/svgIcon.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 207,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "8faa17b6cabfd4eb6896359eaaef8906ff8d418b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon/svgIcon.css",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon/svgIcon.css",
+            "isDirectory": false,
+            "size": 9,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "690dd1ee4df0575d78499135bec93071e468c5a4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon/svgIconController.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon/svgIconController.js",
+            "isDirectory": false,
+            "size": 57,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "b6617c89596c5aa5bced78088a52a8289bf4cb21",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon/svgIconHelper.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon/svgIconHelper.js",
+            "isDirectory": false,
+            "size": 1229,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "0c781b2b13ccb526f9e838c52e8a46d318d7abfb",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon/svgIconRenderer.js",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/aura/svgIcon/svgIconRenderer.js",
+            "isDirectory": false,
+            "size": 390,
+            "modifiedTime": 1480534610000,
+            "changeTime": 1480534610000,
+            "contentHash": "da5606dcd25746b6713f2f958926f52f7340a228",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes",
+            "isDirectory": true,
+            "size": 408,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "60541207400df80d0080d9e4eaeb48d226bcb8aa",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/AccountLookUpController.cls",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/AccountLookUpController.cls",
+            "isDirectory": false,
+            "size": 667,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "3f94f887d3939ac7bce5576bd1bf1904b3247f75",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/AccountLookUpController.cls-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/AccountLookUpController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 201,
+            "modifiedTime": 1480801965000,
+            "changeTime": 1480801965000,
+            "contentHash": "5718d498e19c3dcc0845f652f76e4339d1f05ebc",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/CC_Helper.cls",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/CC_Helper.cls",
+            "isDirectory": false,
+            "size": 1954,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "0fbd158fda4a35fcd626dc2c8695346ccdadf811",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/CC_Helper.cls-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/CC_Helper.cls-meta.xml",
+            "isDirectory": false,
+            "size": 187,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "7adae2faf897cbccede8be2fbe79f7d580196f7a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/LookupSObjectController.cls",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/LookupSObjectController.cls",
+            "isDirectory": false,
+            "size": 2041,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "2a17cca09c42e3dfb289ad3eb93f97c535059ce3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/LookupSObjectController.cls-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/LookupSObjectController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 201,
+            "modifiedTime": 1480801456000,
+            "changeTime": 1480801456000,
+            "contentHash": "ea0e0948d5ba544ba96b232f04c4569bbd059ca0",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/NoProfileFoundException.cls",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/NoProfileFoundException.cls",
+            "isDirectory": false,
+            "size": 59,
+            "modifiedTime": 1483027136000,
+            "changeTime": 1483027136000,
+            "contentHash": "285e5e0472a3e035ed049d6968f1010aa476d2ac",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/NoProfileFoundException.cls-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/NoProfileFoundException.cls-meta.xml",
+            "isDirectory": false,
+            "size": 201,
+            "modifiedTime": 1483027100000,
+            "changeTime": 1483027100000,
+            "contentHash": "106c1b501b0370e896378c493c4c8eb1a833a38a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/UserProvisioningController.cls",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/UserProvisioningController.cls",
+            "isDirectory": false,
+            "size": 695,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "9beedd6c76598d0bf9ec2b9b9c4e432658593ded",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/UserProvisioningController.cls-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/classes/UserProvisioningController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 204,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "d0433c72e8172984ffc780b67ea5812c0e915c8a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/flexipages",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/flexipages",
+            "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "df852e0eb7f6e62ec2fcf26bf25cdf6d4fff8363",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/flexipages/Testing_User_Creation.flexipage-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/flexipages/Testing_User_Creation.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 785,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "17ac646187ac31225d8cda1b86bd06c01b021518",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/layouts",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/layouts",
+            "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "b2aa44986320a18245301bea220f7fe3f37f55d0",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 10608,
+            "modifiedTime": 1482332691000,
+            "changeTime": 1482332691000,
+            "contentHash": "99c9a6e4b9c4a83bd47c7f638d4b07365c439239",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/tabs",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/tabs",
+            "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1480961061000,
+            "changeTime": 1480961061000,
+            "contentHash": "f7ab8fc890814e9adf6f1b2bb52525ba1086f08c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/main/default/tabs/New_User_Provisioning.tab-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/main/default/tabs/New_User_Provisioning.tab-meta.xml",
+            "isDirectory": false,
+            "size": 285,
+            "modifiedTime": 1480961061000,
+            "changeTime": 1480961061000,
+            "contentHash": "4ccc3aaefe947f04bf45902b5d614ae90388ab1e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/test",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/test",
+            "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1481296551000,
+            "changeTime": 1481296551000,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/test/default",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/test/default",
+            "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1481296551000,
+            "changeTime": 1481296551000,
+            "contentHash": "1adaa84dc07a16d34ede5b9a70713ff832a0f853",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/test/default/classes",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/test/default/classes",
+            "isDirectory": true,
+            "size": 204,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "54f05a799ef443496fc2247531fc04608def1091",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/test/default/classes/FakeClassTest.cls",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/test/default/classes/FakeClassTest.cls",
+            "isDirectory": false,
+            "size": 74,
+            "modifiedTime": 1481296551000,
+            "changeTime": 1481296551000,
+            "contentHash": "873d1df79480252a325e5626198e280e2b1b6e89",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/test/default/classes/FakeClassTest.cls-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/test/default/classes/FakeClassTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 191,
+            "modifiedTime": 1481296551000,
+            "changeTime": 1481296551000,
+            "contentHash": "61e50a286e722830a7093f68a3632356ac73b6d4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/test/default/classes/UserProvisioningControllerTest.cls",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/test/default/classes/UserProvisioningControllerTest.cls",
+            "isDirectory": false,
+            "size": 486,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "3ae90d05050ad760c0d77aa64139344583d36b4f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning/force-app/test/default/classes/UserProvisioningControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning/force-app/test/default/classes/UserProvisioningControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 208,
+            "modifiedTime": 1483040836000,
+            "changeTime": 1483040836000,
+            "contentHash": "2f154f8b0ade19f6acd4ba3079f08a7dce7391e7",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/drivard/sfdx/user-provisioning",
+        {
+            "sourcePath": "/Users/drivard/sfdx/user-provisioning",
+            "isDirectory": true,
+            "size": 510,
+            "modifiedTime": 1487947447000,
+            "changeTime": 1487947447000,
+            "contentHash": "89a1cd188333a64250d792afb779a29ccaa3e345",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
