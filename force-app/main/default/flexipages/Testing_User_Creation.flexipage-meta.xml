@@ -20,6 +20,8 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Testing User Creation</masterLabel>
-    <pageTemplate>home:desktopTemplate</pageTemplate>
+    <template>
+    <name>home:desktopTemplate</name>
+    </template>
     <type>HomePage</type>
 </FlexiPage>
